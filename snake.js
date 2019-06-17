@@ -49,7 +49,7 @@ class Snake {
     }
 
     draw() {
-        ctx.fillStyle = "white";
+        ctx.fillStyle = "green";
         ctx.fillRect(this.x, this.y, 20, 20);
 
        var i;
